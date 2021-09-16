@@ -45,7 +45,7 @@
     "email": "bubkoo.wy@gmail.com"
   },
   "contributors": [],
-  "repository": "https://github.com/bubkoo/semantic-release-config",
+  "repository": "https://github.com/a-action/semantic-release-config",
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
