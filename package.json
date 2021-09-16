@@ -1,5 +1,5 @@
 {
-  "name": "@a-action/semantic-release-config",
+  "name": "@wow-actions/semantic-release-config",
   "description": "Sharable configuration for semantic-release, extends experience for publishing Github Actions",
   "version": "1.0.2",
   "main": "index.js",
@@ -45,7 +45,7 @@
     "email": "bubkoo.wy@gmail.com"
   },
   "contributors": [],
-  "repository": "https://github.com/a-action/semantic-release-config",
+  "repository": "https://github.com/wow-actions/semantic-release-config",
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
