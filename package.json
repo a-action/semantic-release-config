@@ -1,14 +1,14 @@
 {
   "name": "@a-action/semantic-release-config",
   "description": "Sharable configuration for semantic-release, extends experience for publishing Github Actions",
-  "version": "1.0.0",
-  "main": "release.config.js",
+  "version": "1.1.0",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js --fix",
     "prepare": "is-ci || husky install .husky"
   },
   "files": [
-    "release.config.js"
+    "index.js"
   ],
   "publishConfig": {
     "access": "public"
