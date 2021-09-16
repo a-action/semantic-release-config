@@ -1,7 +1,7 @@
 {
   "name": "@wow-actions/semantic-release-config",
   "description": "Sharable configuration for semantic-release, extends experience for publishing Github Actions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js --fix",
