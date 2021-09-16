@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/a-action/semantic-release-config/compare/v1.0.0...v1.0.1) (2021-09-16)
+
+
+### Bug Fixes
+
+* 🐛 auto publish to npm ([38a96de](https://github.com/a-action/semantic-release-config/commit/38a96de3a5e9f7d48b58a5e2b1881e5946b02f18))
+
 # 1.0.0 (2021-09-16)
 
 
