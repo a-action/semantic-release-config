@@ -72,10 +72,14 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     [
+      "@semantic-release/exec", {
+        publishCmd: 'yarn build'
+      },
+    ],
+    [
       '@semantic-release/github',
       {
         successComment: getSuccessComment(),
-        // Add links to other releases to the GitHub release body.
         addReleases: 'bottom',
       },
     ],

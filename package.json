@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js --fix",
+    "build": "",
     "prepare": "is-ci || husky install .husky"
   },
   "files": [
