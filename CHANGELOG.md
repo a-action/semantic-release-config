@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wow-actions/semantic-release-config/compare/v1.0.4...v1.1.0) (2021-09-26)
+
+
+### Features
+
+* ✨ add exec plugin ([ddd6c87](https://github.com/wow-actions/semantic-release-config/commit/ddd6c87d08e21c0fd0ed17a33a72d37873b638ea))
+
 ## [1.0.4](https://github.com/wow-actions/semantic-release-config/compare/v1.0.3...v1.0.4) (2021-09-23)
 
 
