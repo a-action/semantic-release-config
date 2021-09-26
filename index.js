@@ -74,6 +74,9 @@ module.exports = {
     [
       '@semantic-release/github',
       {
+        "assets": [
+          { "path": "dist/**" },
+        ],
         successComment: getSuccessComment(),
         // Add links to other releases to the GitHub release body.
         addReleases: 'bottom',
