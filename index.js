@@ -73,7 +73,7 @@ module.exports = {
     '@semantic-release/changelog',
     [
       "@semantic-release/exec", {
-        publishCmd: [
+        prepareCmd: [
           'majorVersion=$(echo "${nextRelease.version}" | cut -d"." -f 1)',
           'minorVersion=$(echo "${nextRelease.version}" | cut -d"." -f 2)',
           'git push origin :refs/tags/v$majorVersion',
