@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/wow-actions/semantic-release-config/compare/v1.0.4...v1.0.5) (2021-09-26)
+
+
+### Bug Fixes
+
+* 🐛 add 'dist' to assets ([3421a7a](https://github.com/wow-actions/semantic-release-config/commit/3421a7a41fca858d752c7c6e90bd6acef2f11836))
+
 ## [1.0.4](https://github.com/wow-actions/semantic-release-config/compare/v1.0.3...v1.0.4) (2021-09-23)
 
 
