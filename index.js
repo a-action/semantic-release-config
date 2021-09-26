@@ -73,7 +73,14 @@ module.exports = {
     '@semantic-release/changelog',
     [
       "@semantic-release/exec", {
-        publishCmd: 'yarn build'
+        publishCmd: [
+          'majorVersion=$(echo "${nextRelease.version}" | cut -d"." -f 1)',
+          'minorVersion=$(echo "${nextRelease.version}" | cut -d"." -f 2)',
+          'git push origin :refs/tags/v$majorVersion',
+          'git tag -f v$majorVersion ${nextRelease.gitHead}',
+          'git push origin :refs/tags/v$majorVersion.$minorVersion',
+          'git tag -f v$majorVersion.$minorVersion ${nextRelease.gitHead}',
+        ].join(' && ')
       },
     ],
     [
@@ -86,7 +93,7 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        assets: ['package.json', 'CHANGELOG.md'],
+        assets: ['dist/**', 'package.json', 'CHANGELOG.md'],
       },
     ],
   ],

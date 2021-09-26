@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js --fix",
-    "build": "echo .",
+    "build": "mkdir -p dist && cp index.js dist",
     "prepare": "is-ci || husky install .husky"
   },
   "files": [
