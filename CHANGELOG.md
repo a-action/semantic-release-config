@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/wow-actions/semantic-release-config/compare/v1.1.0...v1.1.1) (2021-09-26)
+
+
+### Bug Fixes
+
+* 🐛 build script ([04e6fcf](https://github.com/wow-actions/semantic-release-config/commit/04e6fcf40e072e7617d893a1b30a6ccd04620bd1))
+
 # [1.1.0](https://github.com/wow-actions/semantic-release-config/compare/v1.0.4...v1.1.0) (2021-09-26)
 
 
